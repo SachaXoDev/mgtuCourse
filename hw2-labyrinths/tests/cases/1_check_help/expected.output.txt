@@ -1,0 +1,11 @@
+Usage: maze-cli [-hV] [-c=<configPath>] [-s=<fontSize>] [<word>...] [COMMAND]
+      [<word>...]   Words to be translated into ASCII art.
+  -c, --config=<configPath>
+                    Path to JSON config file
+  -h, --help        Show this help message and exit.
+  -s, --font-size=<fontSize>
+                    Font size
+  -V, --version     Print version information and exit.
+Commands:
+  generate  Генерирует лабиринт.
+  solve     Находит путь в лабиринте.

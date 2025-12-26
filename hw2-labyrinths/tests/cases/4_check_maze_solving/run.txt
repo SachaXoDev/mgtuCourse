@@ -1,0 +1,1 @@
+docker run -u root -v $(pwd)/../tests:/tests:rw -i app solve --algorithm astar --file /tests/cases/4_check_maze_solving/maze.txt --start 1,1 --end 19,19 --output /tests/tmp/4_check_maze_solving.txt > /dev/null 2>&1

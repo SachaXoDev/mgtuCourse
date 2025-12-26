@@ -1,0 +1,1 @@
+docker run -u root -v ./tests:/tests:rw -i app generate --algorithm dfs --height 3 --width 3 --output /tests/tmp/3_check_maze_generation.txt > /dev/null 2>&1
