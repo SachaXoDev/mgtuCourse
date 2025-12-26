@@ -1,0 +1,37 @@
+{
+  "files" : [ "test.log" ],
+  "totalRequestsCount" : 7,
+  "responseSizeInBytes" : {
+    "average" : 512.0,
+    "max" : 2048,
+    "p95" : 2048.0
+  },
+  "resources" : [ {
+    "resource" : "/downloads/product_1",
+    "totalRequestsCount" : 3
+  }, {
+    "resource" : "/about.html",
+    "totalRequestsCount" : 1
+  }, {
+    "resource" : "/contact.html",
+    "totalRequestsCount" : 1
+  }, {
+    "resource" : "/index.html",
+    "totalRequestsCount" : 1
+  }, {
+    "resource" : "/downloads/product_2",
+    "totalRequestsCount" : 1
+  } ],
+  "responseCodes" : [ {
+    "code" : 304,
+    "totalResponsesCount" : 3
+  }, {
+    "code" : 200,
+    "totalResponsesCount" : 3
+  }, {
+    "code" : 404,
+    "totalResponsesCount" : 1
+  } ],
+  "requestsPerDate" : [ ],
+  "uniqueProtocols" : [ "HTTP/1.1", "HTTP/2.0" ]
+}
